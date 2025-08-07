@@ -1,4 +1,4 @@
-const countDownDateTime = new Date("2025-01-24T10:27:00+01:00").getTime();
+const countDownDateTime = new Date("2025-08-05T12:40:00+02:00").getTime();
 const daysValue = document.querySelector("#days");
 const hoursValue = document.querySelector("#hours");
 const minutesValue = document.querySelector("#minutes");
@@ -17,3 +17,4 @@ let x = setInterval(function () {
  );
  secondsValue.innerHTML = Math.floor((difference % (1000 * 60)) / 1000);
 }, 1000);
+
